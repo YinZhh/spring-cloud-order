@@ -15,9 +15,9 @@ public interface MemberApiFeign {
 
     /**
      * @return java.lang.String
+     * @description: 要调用的服务的方法
      * @author yin.zhh
      * @date: 2019/1/6 19:29
-     * @description: 要调用的服务的方法
      */
     @RequestMapping("/getMember")
     String getmember();
